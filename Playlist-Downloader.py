@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 import os
 
-api_key = input("Enter Google API key: ")   # Enter API Key that you get from website (linked in )
+api_key = input("Enter Google API key: ")   # Enter API Key that you get from website (linked in github description )
 youtube = build("youtube", "v3", developerKey=api_key)
 
 def get_playlist_videos(playlist_id):    # gets list with information about the videos
