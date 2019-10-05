@@ -17,4 +17,4 @@ The playlist ID for this youtube playlist is PLE7DDD91010BC51F8
 4. If everything worked correctly, a file with he name output.txt will be saved in the current working directory with the names and urls for every video in the playlist.
 
 
-Works with Python3.6 and above due to f strings. Works on Linux computers.
+Works with Python3.6 and above due to f strings. Works on Linux, modifications needed to run on Windows
